@@ -1,6 +1,6 @@
 # docker-shreddit
 
-Automate running Shreddit (within a Docker container) so I don't have to reread the instructions whenever I run it every once in a while.
+Automate and containerize Shreddit so I don't have to reread the instructions whenever I run it every once in a while.
 
 ## Run
 
