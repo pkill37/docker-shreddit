@@ -1,6 +1,6 @@
 # docker-shreddit
 
-Automate and containerize [Shreddit](https://github.com/x89/Shreddit) so I don't have to reread the instructions whenever I run it every once in a while.
+Automate and containerize [Shreddit](https://github.com/x89/Shreddit) so I don't have to reread the instructions whenever I need to run it.
 
 ## Run
 
