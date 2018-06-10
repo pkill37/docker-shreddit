@@ -2,11 +2,11 @@
 set -euo pipefail
 
 # Ask for account details
-echo "Get account details at https://www.reddit.com/prefs/apps/..."
+echo "Get account details at https://www.reddit.com/prefs/apps/"
 read -p "client_id: " client_id
 read -p "client_secret: " client_secret
 read -p "username: " username
-read -p "password: " password
+read -s -p "password: " password
 
 # Generate config files
 shreddit -g
@@ -25,4 +25,3 @@ shreddit
 
 # Cleanup
 rm praw.ini shreddit.yml
-
